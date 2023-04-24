@@ -1,0 +1,20 @@
+.todo-input-btn {
+  display: flex;
+  gap: 10px;
+}
+.todo-input {
+  width: 275px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #ebeff2;
+  border: none;
+}
+.todo-btn {
+  width: 88px;
+  height: 49px;
+  padding: 10px;
+  background-color: #20eeb0;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+}
