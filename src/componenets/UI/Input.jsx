@@ -5,7 +5,7 @@ const Input = (props) => {
   const NoteChangeHandler = (e) => {
     setNote(e.target.value);
   };
-  props.onEdit(note);
+
   const NoteAddHandler = () => {
     props.onAddNout(note);
   };
