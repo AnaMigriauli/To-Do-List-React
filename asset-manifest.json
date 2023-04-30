@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "//To-Do-List-React-/static/css/main.01c3ae8c.css",
+    "main.js": "//To-Do-List-React-/static/js/main.edc2c118.js",
+    "static/js/787.c6a9a21d.chunk.js": "//To-Do-List-React-/static/js/787.c6a9a21d.chunk.js",
+    "static/media/Rectangle.svg": "//To-Do-List-React-/static/media/Rectangle.a128217841b1eddb629a3272d005859b.svg",
+    "index.html": "//To-Do-List-React-/index.html",
+    "static/media/trash-outline.svg": "//To-Do-List-React-/static/media/trash-outline.83e6e062d02de7526268c6f718e4632c.svg",
+    "static/media/create-outline.svg": "//To-Do-List-React-/static/media/create-outline.e4ddc8b609be3a56ee5986d299551176.svg",
+    "static/media/cloud-done-outline.svg": "//To-Do-List-React-/static/media/cloud-done-outline.3c99b066687f8ce12be2f14916ff78ce.svg",
+    "main.01c3ae8c.css.map": "//To-Do-List-React-/static/css/main.01c3ae8c.css.map",
+    "main.edc2c118.js.map": "//To-Do-List-React-/static/js/main.edc2c118.js.map",
+    "787.c6a9a21d.chunk.js.map": "//To-Do-List-React-/static/js/787.c6a9a21d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c3ae8c.css",
+    "static/js/main.edc2c118.js"
+  ]
+}
