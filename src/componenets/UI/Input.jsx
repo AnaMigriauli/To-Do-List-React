@@ -7,7 +7,10 @@ const Input = (props) => {
   };
 
   const NoteAddHandler = () => {
-    props.onAddNout(note);
+    if (note.trim().length !== 0) {
+      props.onAddNout(note);
+      setNote("");
+    }
   };
   return (
     <div className="todo-input-btn">
@@ -16,8 +19,13 @@ const Input = (props) => {
         placeholder="Note"
         value={note}
         onChange={NoteChangeHandler}
-      ></input>
-      <button className="todo-btn" onClick={NoteAddHandler}></button>
+        onKeyDown={(e) => {
+          return e.key === "Enter" ? NoteAddHandler() : "";
+        }}
+      />
+      <button className="todo-btn" onClick={NoteAddHandler}>
+        Add
+      </button>
     </div>
   );
 };
