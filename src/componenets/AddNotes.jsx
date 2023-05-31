@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./AddedNotes.css";
-import DeleteIcon from "../assets/trash-outline.svg";
-import EditIcon from "../assets/create-outline.svg";
-import SubmitIcon from "../assets/cloud-done-outline.svg";
+import DeleteIcon from "../assets/Images/trash-outline.svg";
+import EditIcon from "../assets/Images/create-outline.svg";
+import SubmitIcon from "../assets/Images/cloud-done-outline.svg";
 
 const AddNotes = (props) => {
   const [updateItem, setUpdateItem] = useState();

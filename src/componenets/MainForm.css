@@ -7,6 +7,8 @@
   color: #007fdb;
   font-size: 96px;
   line-height: 116.18px;
+  font-family: Inter;
+  font-weight: 700;
 }
 .card {
   width: 430px;
@@ -14,19 +16,32 @@
   height: fit-content;
   background-color: #ffffff;
   border-radius: 10px;
+  font-family: "Inter";
 }
 .todo-header {
   position: relative;
+}
+.todo-month {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 18px;
+  bottom: 82px;
+  right: 25px;
+  align-items: center;
+  font-family: "RussoOne-Regular";
+  font-weight: 400;
 }
 .todo-time {
   position: absolute;
   z-index: 2;
   color: #ffffff;
-  font-size: 30px;
-  width: 40%;
+  font-size: 48px;
+  width: 52%;
   bottom: 0;
-  right: 0;
+  right: 10px;
   align-items: center;
+  font-family: "RussoOne-Regular";
 }
 .todo-picture {
   width: 430px;
@@ -38,6 +53,7 @@
   display: flex;
   gap: 10px;
   margin-top: 23px;
+  font-family: "Inter";
 }
 .todo-input {
   width: 275px;

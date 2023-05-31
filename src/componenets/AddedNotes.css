@@ -21,7 +21,7 @@
 .list-item {
   font-size: 18px;
   color: #0d0d0d;
-  margin-bottom: 5px;
+  margin: 4.2px 0;
 }
 
 .todo-icon {
@@ -40,12 +40,12 @@
   cursor: pointer;
 }
 .item-input {
+  all: unset;
   width: 275px;
   height: 30px;
   border-radius: 5px;
   background-color: #ebeff26d;
   border: none;
-
   font-size: 18px;
   color: #0d0d0d;
 }
