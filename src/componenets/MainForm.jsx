@@ -26,7 +26,14 @@ const MainForm = (props) => {
 
   const AddElementHandler = (item) => {
     setNoteList((prevItem) => {
-      return [...prevItem, { items: item, id: Math.random().toString() }];
+      return [
+        ...prevItem,
+        {
+          items: item,
+          id: Math.random().toString(),
+          time: `${monthDay} at ${hour}`,
+        },
+      ];
     });
   };
 
@@ -36,7 +43,9 @@ const MainForm = (props) => {
   const InputUpdateHandler = (id, e) => {
     setNoteList(
       noteList.map((el) => {
-        return el.id === id ? { ...el, items: e.target.value } : el;
+        return el.id === id
+          ? { ...el, items: e.target.value, time: `${monthDay} at ${hour}` }
+          : el;
       })
     );
   };

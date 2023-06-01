@@ -36,7 +36,10 @@ const AddNotes = (props) => {
           </div>
         ) : (
           <div key={note.id} className="todo-item">
-            <li className="list-item">{note.items}</li>
+            <div>
+              <li className="list-item">{note.items}</li>
+              <p className="time">{note.time}</p>
+            </div>
             <div className="todo-list-btns">
               <button
                 className="delete-edit-submit-btns"

@@ -31,6 +31,7 @@
   margin-right: 28px;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Inter";
 }
 
 .todo-btn:hover {
