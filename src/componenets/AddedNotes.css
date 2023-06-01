@@ -21,6 +21,7 @@
 .list-item {
   font-size: 18px;
   color: #0d0d0d;
+  font-weight: 500;
 }
 .time {
   all: unset;

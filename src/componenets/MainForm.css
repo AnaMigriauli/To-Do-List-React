@@ -21,27 +21,23 @@
 .todo-header {
   position: relative;
 }
-.todo-month {
+.timer {
   position: absolute;
   z-index: 2;
   color: #ffffff;
-  font-size: 18px;
-  bottom: 82px;
-  right: 25px;
-  align-items: center;
   font-family: "RussoOne-Regular";
+  bottom: 13px;
+  right: 28px;
+}
+.todo-month {
+  font-size: 18px;
   font-weight: 400;
+  margin: 0 auto;
+  text-align: end;
 }
 .todo-time {
-  position: absolute;
-  z-index: 2;
-  color: #ffffff;
   font-size: 48px;
-  width: 52%;
-  bottom: 0;
-  right: 10px;
-  align-items: center;
-  font-family: "RussoOne-Regular";
+  margin: 0 auto;
 }
 .todo-picture {
   width: 430px;
