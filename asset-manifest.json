@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/To-Do-List-React/static/css/main.3ab1a030.css",
-    "main.js": "/To-Do-List-React/static/js/main.27a18912.js",
-    "static/js/787.c6a9a21d.chunk.js": "/To-Do-List-React/static/js/787.c6a9a21d.chunk.js",
+    "main.css": "/To-Do-List-React/static/css/main.d840b13e.css",
+    "main.js": "/To-Do-List-React/static/js/main.bfb72b92.js",
     "static/media/Rectangle.svg": "/To-Do-List-React/static/media/Rectangle.a128217841b1eddb629a3272d005859b.svg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/To-Do-List-React/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
     "static/media/RussoOne-Regular.ttf": "/To-Do-List-React/static/media/RussoOne-Regular.3519de676ce77f6135db.ttf",
@@ -10,12 +9,11 @@
     "static/media/trash-outline.svg": "/To-Do-List-React/static/media/trash-outline.83e6e062d02de7526268c6f718e4632c.svg",
     "static/media/create-outline.svg": "/To-Do-List-React/static/media/create-outline.e4ddc8b609be3a56ee5986d299551176.svg",
     "static/media/cloud-done-outline.svg": "/To-Do-List-React/static/media/cloud-done-outline.3c99b066687f8ce12be2f14916ff78ce.svg",
-    "main.3ab1a030.css.map": "/To-Do-List-React/static/css/main.3ab1a030.css.map",
-    "main.27a18912.js.map": "/To-Do-List-React/static/js/main.27a18912.js.map",
-    "787.c6a9a21d.chunk.js.map": "/To-Do-List-React/static/js/787.c6a9a21d.chunk.js.map"
+    "main.d840b13e.css.map": "/To-Do-List-React/static/css/main.d840b13e.css.map",
+    "main.bfb72b92.js.map": "/To-Do-List-React/static/js/main.bfb72b92.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab1a030.css",
-    "static/js/main.27a18912.js"
+    "static/css/main.d840b13e.css",
+    "static/js/main.bfb72b92.js"
   ]
 }
