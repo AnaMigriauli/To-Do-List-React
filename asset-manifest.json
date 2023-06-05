@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/To-Do-List-React/static/css/main.d840b13e.css",
-    "main.js": "/To-Do-List-React/static/js/main.bfb72b92.js",
+    "main.js": "/To-Do-List-React/static/js/main.a3ae174f.js",
     "static/media/Rectangle.svg": "/To-Do-List-React/static/media/Rectangle.a128217841b1eddb629a3272d005859b.svg",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/To-Do-List-React/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
     "static/media/RussoOne-Regular.ttf": "/To-Do-List-React/static/media/RussoOne-Regular.3519de676ce77f6135db.ttf",
@@ -10,10 +10,10 @@
     "static/media/create-outline.svg": "/To-Do-List-React/static/media/create-outline.e4ddc8b609be3a56ee5986d299551176.svg",
     "static/media/cloud-done-outline.svg": "/To-Do-List-React/static/media/cloud-done-outline.3c99b066687f8ce12be2f14916ff78ce.svg",
     "main.d840b13e.css.map": "/To-Do-List-React/static/css/main.d840b13e.css.map",
-    "main.bfb72b92.js.map": "/To-Do-List-React/static/js/main.bfb72b92.js.map"
+    "main.a3ae174f.js.map": "/To-Do-List-React/static/js/main.a3ae174f.js.map"
   },
   "entrypoints": [
     "static/css/main.d840b13e.css",
-    "static/js/main.bfb72b92.js"
+    "static/js/main.a3ae174f.js"
   ]
 }
