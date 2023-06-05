@@ -1,6 +1,6 @@
 .todo {
   display: flex;
-  justify-content: space-around;
+  gap: 296px;
   align-items: center;
 }
 .todo-title {

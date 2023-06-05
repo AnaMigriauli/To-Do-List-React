@@ -41,13 +41,19 @@ const MainForm = (props) => {
     setNoteList(noteList.filter((el) => el.id !== id));
   };
   const InputUpdateHandler = (id, e) => {
-    setNoteList(
-      noteList.map((el) => {
-        return el.id === id
-          ? { ...el, items: e.target.value, time: `${monthDay} at ${hour}` }
-          : el;
-      })
-    );
+    if (e.target.value.length < 26) {
+      setNoteList(
+        noteList.map((el) => {
+          return el.id === id
+            ? {
+                ...el,
+                items: e.target.value,
+                time: `${monthDay} at ${hour}`,
+              }
+            : el;
+        })
+      );
+    }
   };
 
   const RefreshTime = () => {

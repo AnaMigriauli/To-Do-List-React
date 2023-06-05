@@ -3,7 +3,9 @@ import "./Input.css";
 const Input = (props) => {
   const [note, setNote] = useState("");
   const NoteChangeHandler = (e) => {
-    setNote(e.target.value);
+    if (e.target.value.length < 28) {
+      setNote(e.target.value);
+    }
   };
 
   const NoteAddHandler = () => {

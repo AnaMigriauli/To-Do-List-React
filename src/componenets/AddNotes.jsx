@@ -9,8 +9,10 @@ const AddNotes = (props) => {
   const EditHandler = (id) => {
     setUpdateItem(id);
   };
-  const SubmitHandler = (id) => {
-    setUpdateItem(updateItem !== id);
+  const SubmitHandler = (id, item) => {
+    if (item.length !== 0) {
+      setUpdateItem(updateItem !== id);
+    }
   };
   return (
     <ul className="todo-items">
@@ -22,14 +24,14 @@ const AddNotes = (props) => {
               value={note.items}
               onChange={(e) => props.InputUpdateHandler(note.id, e)}
               onKeyDown={(e) => {
-                return e.key === "Enter" ? SubmitHandler(note.id) : "";
+                return e.key === "Enter" && SubmitHandler(note.id, note.items);
               }}
               autoFocus={true}
             />
             <button
               className="delete-edit-submit-btns"
               type="submit"
-              onClick={() => SubmitHandler(note.id)}
+              onClick={() => SubmitHandler(note.id, note.items)}
             >
               <img className="todo-icon" src={SubmitIcon} alt="submit" />
             </button>
